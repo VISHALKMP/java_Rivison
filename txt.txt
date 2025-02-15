@@ -1,0 +1,9 @@
+Set {
+    Hashest{
+        linkHashSet{
+            1)it use hastabel with linklist
+            2)Duplicates not allowed (property of hasset)
+            3)insertion order preserved (property of list)
+        }
+    }
+}
