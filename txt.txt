@@ -7,3 +7,100 @@ Set {
         }
     }
 }
+
+18/02/2025 AJAY SIR;
+sorted set , tree set call data structure named balanced tree , not allowed hetrogenius Data beacuse it follow sorting algi in which it's check same value (allowed only HomoGenius Data)
+
+when we do this internally a thing call named Compareto , it belong to comparable interfcae 
+By default it sort in ascending order
+
+public int compareTo(Object o ){
+
+}
+____________________________________________
+Comparater interfcae,
+
+ which conation two method  1)compare method 
+public int copare(Object o1,Object o2){
+
+}
+in which we dont want naturall sorting.use in when need to do customize sorting //
+
+class Mystring implements Comparater<Integer>{
+    public int compare(Integer i1, Integer i2){
+       if(i1>i2){
+        return +1;
+       }
+       else if(i1<i2){
+        return -1;
+       }
+       else
+       return 0;
+    }
+   best way to do =  no need to write this big logic just use this  = return -i1.compareTo(i2);
+}
+____________________________________________
+
+map{
+     
+    ( methods {
+        Put(Key,Value);
+        put(object key, object value);
+
+        putAll(Map m) = it will made 
+
+        value get(Key);
+
+        remove (Key);
+        contains(Key);
+        contains(value);
+
+        imp= keySet();
+
+        Collection values();
+
+    })
+
+
+    interfcae Entry{
+         it re presents (Key value Pair)
+         get key ;
+         set key ;
+         set value;
+    } 
+}
+
+HASHMAP{
+          need to learn about hasmap hashvalues hastabel;
+
+          hastabel stored data on behalf of hastable;
+
+          for Fast searching HASHMAP;
+}
+
+LinkHashMap = linked list+hash table , insertion order preserved .
+
+interfcae ShortedMap = firs() last() tellmap() ,
+interfcae NavigableMap =  
+TreeMap = under line data structure in red black tree
+
+____________________________________________
+Queue [list datastructure type first in first out]
+Queue have two end front and rear [1,2,9,7,6,5[it is rear the last guy]];
+insertion from reear
+____________________________________________
+                   itreable 
+                   Collection
+                     ||
+                   Queue
+                    ||
+            interfcae dequeue {
+                linkedqueue , arraylistqueue
+            }
+Double eneded Queue {
+    we can do insertion deleteion from both side ....
+}
+
+List , Map , Set differcance{
+    
+}
